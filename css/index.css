@@ -1,0 +1,338 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+.focus {
+    position: relative;
+    width: 721px;
+    height: 455px;
+    background-color: purple;
+    overflow: hidden;
+}
+.focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+}
+.focus ul li {
+    float: left;
+}
+.current {
+    background-color: #fff;
+}
+.arrow-l,
+.arrow-r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 18px;
+    z-index: 2;
+}
+
+.arrow-r {
+    right: 0;
+}
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+.circle li {
+    float: left;
+    width: 12px;
+    height: 14px;
+    /*background-color: #fff;*/
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 10px 3px;
+    border-radius: 50%;
+    /*鼠标经过显示小手*/
+    cursor: pointer;
+}
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+.news-hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+.news-hd h5 {
+    float: left;
+    font-size: 14px;
+}
+.news-hd .more {
+    float: right;
+}
+.news-hd .more::after {
+    font-family: 'icomoon';
+    content: '\e920';
+}
+.news-bd {
+    padding: 5px 15px 0;
+}
+.news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+.lifeservice {
+    
+    overflow: hidden;
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top:0;
+}
+.lifeservice ul {
+    width: 252px;
+}
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+.lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    background-color: pink;
+    margin-top: 12px;
+}
+.lifeservice ul li:nth-child(1) i {
+    background: url("../upload/icons.png") no-repeat -19px -15px;
+}
+.lifeservice ul li:nth-child(2) i {
+    background: url("../upload/icons.png") no-repeat -79px -16px;
+}
+.lifeservice ul li:nth-child(3) i {
+    background: url("../upload/icons.png") no-repeat -141px -17px;
+}
+.lifeservice ul li:nth-child(4) i {
+    background: url("../upload/icons.png") no-repeat -206px -16px;
+}
+.lifeservice ul li:nth-child(5) i {
+    background: url("../upload/icons.png") no-repeat -17px -88px;
+}
+.lifeservice ul li:nth-child(6) i {
+    background: url("../upload/icons.png") no-repeat -80px -88px;
+}
+.lifeservice ul li:nth-child(7) i {
+    background: url("../upload/icons.png") no-repeat -141px -88px;
+}
+.lifeservice ul li:nth-child(8) i {
+    background: url("../upload/icons.png") no-repeat -209px -88px;
+}
+.lifeservice ul li:nth-child(9) i {
+    background: url("../upload/icons.png") no-repeat -17px -159px;
+}
+.lifeservice ul li:nth-child(10) i {
+    background: url("../upload/icons.png") no-repeat -79px -159px;
+}
+.lifeservice ul li:nth-child(11) i {
+    background: url("../upload/icons.png") no-repeat -144px -159px;
+}
+.lifeservice ul li:nth-child(12) i {
+    background: url("../upload/icons.png") no-repeat -208px -159px;
+}
+
+.lifeservice .jian {
+    position: relative;
+}
+.lifeservice .jian img {
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.bargain {
+    margin-top: 5px;
+}
+/*推荐模块*/
+.recom {
+    height: 163px;
+    background-color: #ebebe;
+    margin-top: 12px;
+}
+.recom_hd {
+    float: left;
+    height: 163px;
+    width: 205px;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.recom_bd {
+    float: left;
+}
+.recom_bd ul li {
+    position: relative;
+    float: left;
+}
+.recom_bd ul li img {
+    width: 248px;
+    height: 163px;
+}
+.recom_bd ul li:nth-child(-n+3)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+.box1 {
+    height: 276px;
+    margin-top: 30px;
+}
+.box1 .love {
+    height: 29px;
+}
+.box1 .love h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+.box1 .love a {
+    float: right;
+    right: 0;
+    font-size: 12px;
+}
+.box1 .love a i {
+    margin-left: 2px;
+}
+.box1 .love a i::after {
+    font-family: 'icomoon';
+    content: "\ea2e";
+}
+.box1 .shangp {
+    border-top: 1px solid #ededed;
+    box-sizing: content-box;
+}
+.shangp ul li {
+    width: 200px;
+    height: 233px;
+    float: left;
+
+}
+.shangp ul li .image {
+    width: 200px;
+    height: 163px;
+    /*父元素要center，子元素才能vertical-align: middle，实现图片居中对齐*/
+    text-align: center;
+    line-height: 163px;
+}
+
+.shangp ul li .image img {
+    margin-top: 20px;
+    border: 0;
+    /*父元素要center，子元素才能vertical-align: middle，实现图片居中对齐*/
+    vertical-align: middle;
+}
+.info {
+    margin-top: 12px;
+    margin-left: 36px;
+
+}
+.info:nth-child(-n+5) {
+    border-right: 1px solid #ededed;
+}
+.info h4 {
+    font-size: 12px;
+    font-weight: 400;
+}
+.info span {
+    font-size: 14px;
+    font-weight: 700;
+    color: #df3033;
+}
+/*家用电梯模块*/
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+.tab_list {
+    float: right;
+    line-height: 30px;
+}
+.tab_list ul li {
+    float: left;
+}
+.tab_list ul li a {
+    margin:0 15px;
+}
+.floor .w {
+    margin-top:30px
+}
+.box_bd {
+    height: 361px;
+
+}
+.tab_list_item>div {
+    height: 361px;
+    float: left;
+}
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.col_210 a img {
+    margin-top: 27px;
+}
+.col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 33px;
+    margin-right: 10px;
+}
+.col_210 ul {
+    padding-left: 12px;
+}
+.col_329 {
+    width: 329px;
+}
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+.col_219 {
+    width: 219px;
+}
+.bb {
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
